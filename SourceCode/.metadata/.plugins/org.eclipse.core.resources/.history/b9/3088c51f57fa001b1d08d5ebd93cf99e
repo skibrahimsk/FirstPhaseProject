@@ -1,0 +1,25 @@
+package com.lockedme;
+
+
+import java.util.Scanner;
+
+public class CompanyProject
+{
+	static final String folderpath="D:\\MyFirstProject\\ProjectFiles";
+	public static void main(String[] args) 
+	{
+		//Code for Seaching  a file
+		String fileName;
+		Scanner obj=new Scanner(System.in);
+		System.out.println("Enter file name to search:");
+		fileName=obj.nextLine();
+		
+		boolean isFound =FileManger.seachFile(folderpath, fileName);
+			
+		if(isFound)
+			System.out.println("file is present ");
+		else
+			System.out.println("file not present ");
+	}
+
+}

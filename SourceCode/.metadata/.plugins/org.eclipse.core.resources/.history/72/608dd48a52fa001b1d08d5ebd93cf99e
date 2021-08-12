@@ -1,0 +1,13 @@
+package com.lockedme;
+
+
+
+public class CompanyProject
+{
+	static final String folderpath="D:\\MyFirstProject\\ProjectFiles";
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
